@@ -1,0 +1,63 @@
+
+
+< ch01_react-set.txt >
+
+# nodejs 설치
+https://nodejs.org
+
+# npm, node 버전 확인
+npm -v
+node -v
+
+# npm- NPM(Node Package Manager) 은 Node.js 팩키지 관리자 입니다
+- JavaScript 라이브러리로 팩키지를 쉽게 설치하고 관리할 수 있게 해주는 도구 입니다
+- node.js 설치하면 같이 설치됩니다
+
+# Node.js
+- 서버 사이드에서 JavaScript 를 실행할 수 있게 해주는 환경입니다
+  > 서버 사이드 : 웹 애플리케이션의 서버쪽에서 일어나는 작업
+
+# vscode 확장 패키지
+ESLint : JavaScript 오타, 구문 오류
+Prettier - Code formatter : 코드 형식 지정
+TailWind CSS Intellisense : css  자동 완성
+
+# vscode 터미널
+- "Ctrl  + '(외따옴표)'" (백틱)
+
+# touch 설치
+- 터미널에서 touch 명령어를 사용해서 새로운 파일을 만들거나 기존 파일을 변경할 수 있습니다
+$ npm install -g touch-cli
+$ touch --version
+// $ 터미널 명령어
+
+# 폴더(디렉토리) 생성
+$ mkdir 폴더명 
+
+#touch 파일생성
+$ touch 파일명
+
+#  폴더(디렉토리), 파일 삭제
+$ rm -r -force 삭제폴더 // window
+$ rmdir 폴더명
+$  del 파일명
+$ rmdis /s 폴더명
+
+$ rm -rf 삭제폴더       //mac
+
+# 터미널 화면 지우기
+$ clear
+$ cls
+
+# 리액트 프로젝트 생성(CRA)
+- npx create-react-app 프로젝트명
+
+# 프로젝트 실행
+$ npm run start
+
+# 서버 중지
+$ Ctrl + c
+
+# node.js 팩키지 설치
+$ npm i
+.
